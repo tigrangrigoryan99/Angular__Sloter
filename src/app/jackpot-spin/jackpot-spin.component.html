@@ -1,0 +1,25 @@
+<div class="slot__columns" #columns>
+  <div
+    class="slot__column"
+    #column
+    [ngStyle]="{ height: column.clientWidth + 'px' }"
+  >
+    <div class="slot__item"></div>
+  </div>
+  <div class="slot__column" [ngStyle]="{ height: column.clientWidth + 'px' }">
+    <div class="slot__item"></div>
+  </div>
+  <div class="slot__column" [ngStyle]="{ height: column.clientWidth + 'px' }">
+    <div class="slot__item"></div>
+  </div>
+  <div class="slot__column" [ngStyle]="{ height: column.clientWidth + 'px' }">
+    <div class="slot__item"></div>
+  </div>
+  <div class="slot__column" [ngStyle]="{ height: column.clientWidth + 'px' }">
+    <div class="slot__item"></div>
+  </div>
+  <div class="slot__column" [ngStyle]="{ height: column.clientWidth + 'px' }">
+    <div class="slot__item"></div>
+  </div>
+</div>
+<button type="button" (click)="onCilck()" class="button">Spin</button>
